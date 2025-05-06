@@ -21,4 +21,4 @@ this webpage is deployed to Github pages
 - Github pages: (https://deedee21000.github.io/se_project_spots/)
 
 ## walkthrough video
-pending first set of project corrections
+- walkthrough link: https://drive.google.com/file/d/1qTRtElHzyABpbrJ2B2yo2Q6cxcLs-uAp/view?usp=drive_link
