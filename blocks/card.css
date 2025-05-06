@@ -18,7 +18,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    max-width: 250px;
+    max-width: 353px;
   }
 
   .card__content{
@@ -35,7 +35,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     border: none;
-    background-attachment: transparent;
+    background-color: transparent;
     opacity: 0.4;
     margin: 12px 0 0;
   }
