@@ -1,8 +1,8 @@
-.footer{
+.footer {
   padding: 60px 0;
 }
 
-.footer__text{
+.footer__text {
   display: flex;
   justify-content: center;
   color: #212121;
