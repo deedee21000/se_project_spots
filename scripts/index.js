@@ -51,8 +51,8 @@ function handleAddCardSubmit(evt) {
   evt.preventDefault();
   console.log("Caption:", nameInput.value);
   console.log("Image link:", linkInput.value);
-  document.querySelector("#new-post-modal").classList.remove("modal_is-opened");
+  newPostModal.classList.remove("modal_is-opened");
 }
 
 editProfileForm.addEventListener("submit", handleEditProfileFormSubmit);
-addCardFormElement.addEventListener("submit", handleAddCardFormSubmit);
+handeleAddCardFormElement.addEventListener("submit", handleAddCardFormSubmit);
