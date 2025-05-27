@@ -85,6 +85,11 @@
   gap: 10px;
 }
 
+.modal__input:hover {
+  outline: none;
+  border-color: #212121;
+}
+
 .modal__input::placeholder {
   color: #21212166;
 }
@@ -104,10 +109,7 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 627px) {
-  .modal {
-  }
-
+@media screen and (max-width: 300px) {
   .modal__title {
     font-size: 20px;
     margin: 10px 0 34px;

@@ -55,4 +55,4 @@ function handleAddCardSubmit(evt) {
 }
 
 editProfileForm.addEventListener("submit", handleEditProfileFormSubmit);
-handeleAddCardFormElement.addEventListener("submit", handleAddCardFormSubmit);
+handleAddCardFormElement.addEventListener("submit", handleAddCardFormSubmit);
