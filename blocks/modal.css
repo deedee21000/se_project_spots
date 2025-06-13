@@ -109,6 +109,25 @@
   color: #21212166;
 }
 
+.modal__error {
+  display: none;
+  margin-top: 8px;
+  color: rgba(255, 0, 0, 0.7);
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+}
+
+.modal__error_active {
+  display: block;
+}
+
+.modal__input_type_error {
+  border: 1px solid rgba(255, 0, 0, 0.6);
+}
+
 .modal__submit-btn {
   width: 156px;
   padding: 18px 0;
@@ -122,6 +141,15 @@
 
 .modal__submit-btn:hover {
   opacity: 0.8;
+}
+
+.modal__submit-btn:disabled {
+  background-image: url(../images/disbaled.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: not-allowed;
+  opacity: 0.5;
 }
 
 .modal__image-container {
